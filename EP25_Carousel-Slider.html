@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <!-- การสร้าง Carousel -->
+                <div class="carousel slide" id="slider1" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <button data-bs-target="#slider1" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#slider1" data-bs-slide-to="1"></button>
+                        <button class="active" data-bs-target="#slider1" data-bs-slide-to="2"></button>
+                        <button data-bs-target="#slider1" data-bs-slide-to="3"></button>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2021/08/16/03/56/common-heron-6549208_960_720.jpg" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>นกกระเรียน</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, distinctio.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2021/09/17/10/55/caiman-lizard-6632344_960_720.jpg" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>กิ้งก่า</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, distinctio.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2021/05/02/08/33/jellyfish-6222849_960_720.jpg" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>แมงกระพรุน</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, distinctio.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2021/09/15/12/52/animal-6626792_960_720.jpg" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>ลิง</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, distinctio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ควบคุมการ Slider ผ่านปุ่ม -->
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider1">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider1">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
