@@ -1,2 +1,2 @@
-# Bootstrip_Learning
-Bootstrip_Learning
+# Bootstrap_Learning
+Bootstrap_Learning
